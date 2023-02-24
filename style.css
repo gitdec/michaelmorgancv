@@ -17,6 +17,7 @@ html {
   max-height: 470px; /* altura máxima */
   overflow: hidden; /* ocultar contenido que se exceda de la altura máxima */
   opacity: 85%;
+  width: 100vw
 }
 
 
@@ -31,16 +32,14 @@ header {
   
 }
 
-
-
 .inicio .contenido {
-    max-width: 1000px;
+  /*max-width: 1000px;*/
     margin: auto;
     color: azure;
     text-align: center;
     padding: 0 10px;
     margin-top: 30px;
-}
+  }
 /* Estilo de la foto */
 #perfil {
     max-width: 120px;
@@ -73,7 +72,19 @@ header {
     margin: auto;
     margin-top: 10px;
     margin-bottom: 50px;
-    
+  }
+  /*ACERCA DE MI*/
+  .about h2{
+    text-align: center;
+  }
+  .about {
+    /*text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);*/
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    width: 300px;
   }
   
   

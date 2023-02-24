@@ -8,23 +8,6 @@ $(document).ready(function(){
     });
   }); 
 
-  /*const infoButtons = document.querySelectorAll('.info-button');
-
-  infoButtons.forEach((button) => {
-    button.addEventListener('click', () => {
-      const imageInfo = button.nextElementSibling;
-      imageInfo.style.display = 'block';
-    });
-  });
-  
-  const imageInfos = document.querySelectorAll('.image-info');
-  
-  imageInfos.forEach((info) => {
-    info.addEventListener('click', () => {
-      info.style.display = 'none';
-    });
-  });*/
-
   let imageContainers = document.querySelectorAll('.image-container');
 
 imageContainers.forEach((container) => {
