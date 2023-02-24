@@ -26,22 +26,3 @@ imageContainers.forEach((container) => {
     imageInfo.style.display = 'none';
   });
 });
-
-  
-
-
-
-  /* // Obtener los elementos de los botones
-const experienceBtn = document.getElementById("experience-btn");
-const educationBtn = document.getElementById("education-btn");
-const experienceInfo = document.getElementById("experience-info");
-const educationInfo = document.getElementById("education-info");
-
-// Agregar un event listener a los botones para mostrar/ocultar la información
-experienceBtn.addEventListener("click", () => {
-  experienceInfo.classList.toggle("hidden");
-});
-
-educationBtn.addEventListener("click", () => {
-  educationInfo.classList.toggle("hidden");
-}); */
