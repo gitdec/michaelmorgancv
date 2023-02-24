@@ -246,7 +246,7 @@ button {
     border-radius: 5px;
     margin: 0 auto;
     align-items: center;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   
   }
   button {
@@ -257,7 +257,8 @@ button {
     background-color: #f0087c;
   }
   
-  footer {
+  footer p {
+    font-size: 12px;
     text-align: center;
-    margin-bottom: 30px;
+    margin-bottom: 10px;
   }
